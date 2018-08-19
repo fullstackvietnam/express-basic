@@ -39,3 +39,7 @@ và
 # Tạo Favicon
 
 https://www.favicon-generator.org/
+
+# Tìm hiểu HEROKU 
+
+https://www.heroku.com/
