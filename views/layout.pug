@@ -4,10 +4,14 @@ html
 		title #{title} - FullStack Vietnam
 		link(rel='stylesheet', href='/css/style.css')
 	body
-		ul
-			li 
-				a(href="/") Index
-			li 
-				a(href="/about") About
-		block content
+		main 
+			.container
+				.row
+					.col-sm-4
+						.list-group
+							a.list-group-item.list-group-item-action(href="/") Index
+							a.list-group-item.list-group-item-action(href="/about") About
+							a.list-group-item.list-group-item-action(href="/users") Users
+					.col
+						block content
 		script(src="/js/main.js")
